@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b807e90a18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="/img/logo.jpg" height="70px">
+        <span>Empresa</span>
+        <p><a href="/index.html">Pagina principal</a></p>
+        
+    </header>
+    <main>
+        <h1>Atencion al cliente</h1>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="">Correo electronico</label>
+                <input type="email" name="Correo electronico" placeholder="correo electronico" required>
+
+                <label for="">Nombre y apellido</label>
+                <input type="text" name="nombre-apellido" placeholder="nombre y apellido" required>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Seleccionar problema</legend>
+
+                <input type="radio" name="problema" value="envio"><span>No llego mi pedido</span>
+                <input type="radio" name="problema" value="daños"><span>Productos dañados </span>
+                <input type="radio" name="problema" value="devolucion"><span>Solicitar devolucion</span>
+                <input type="radio" name="problema" value="otros"><span>Otros</span>
+            </fieldset>
+
+            <fieldset>
+                <textarea name="describir-problema" id="" cols="30" rows="10"></textarea><span>Describir problema</span>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer id="contacto">
+        <div>
+            <img src="/img/logo.jpg" height="70">
+            <span>Empresa</span>
+        <div>
+            <ul>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            </ul>
+        </div>
+        <div>
+            <h3>Atencion al cliente</h3>
+            <p>Nosotros</p>
+            <p>Contacto</p>
+            <p>¿Necesitas ayuda?</p>
+        </div>       
+    </footer>
+</body>
+</html>
