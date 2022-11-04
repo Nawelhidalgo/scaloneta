@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+
+   
+}
+/*el header de la pagina*/
+ #encabezado {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+   
+   
+}
+
+.main {
+    padding-top: 150px;
+    background-color: #f2f6f6;
+    background-image: url(img/fondopaginaweb.jpg);
+    background-size:cover ;
+    
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 20px;
+    background-color:#efefe1;   
+}
+
+.logo {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+ 
+   
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.navegacion nav ul {
+    display: flex;
+    flex-direction: row;   
+    padding: 0px 10px;
+    
+    
+    
+    
+  
+}
+
+.navegacion nav ul li {
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    
+   
+    
+}
+
+.navegacion nav ul li a {
+    text-decoration: none;
+    color: #a99168 ;
+    
+}
+
+/*seccion de presentacion de la pagina*/
+
+#presentacion {
+    padding: 40px 20px;
+    background-color: #09342c;
+   
+
+}
+
+#presentacion div {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+
+.esfuerzo {
+    color: #f8f8f8;
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+   
+}
+
+.imgdejugadores img {
+    width: 700px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+
+/*productos principales de la pagina, pelotas, pantalones, camisetas, botines y seccion retro*/
+
+
+#categorias {
+    padding-top:50px ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:  #e0dbba;
+    margin-top: 80px;  
+} 
+
+#categorias div {
+    margin: 20px;
+    box-shadow: 1px 20px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+    margin: auto;
+    transition: 1s;
+}
+
+#categorias div img {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    
+    
+}
+#categorias div img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.pelota img {
+    width: 200px;
+    height: 260px;
+}
+
+.pantalon img {
+    width: 200px;
+    height: 300px;
+}
+
+.camiseta img {
+    height:340px;
+    width: 200px;
+}
+
+.botines img {
+    width: 200px;
+    height: 300px;
+}
+
+.retro img {
+    width: 200px;
+    height: 260px;
+}
+
+/*aca se encuentran los productos destacados y ofertas */
+#ofertas {
+    padding: 100px 0px 200px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+
+ #h3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #efefe1;
+    padding-left: 90px;
+    padding-right: 90px ;
+    position: relative;
+    left: 90px;
+    border-radius: 10px; 
+ 
+    
+ }
+
+ #h3 p {
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 5px;
+    right: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 29px;
+    color: #a99168;
+    
+ }
+
+ #h3 img {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+
+ } 
+
+#destacados {
+    display: flex;
+    flex-direction: row;
+    background-color: #efefe1;
+    position: relative;
+    right: 90px;
+    border-radius: 10px;    
+
+   
+}
+
+#destacados div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+    
+    
+}
+
+.productodest img {
+    height: 150px;
+}
+
+.productodest p {
+   position: relative;
+   top: 20px;
+   height: 4.5em;
+   color: #333;
+  
+  
+   
+   
+
+}
+
+.comprar {
+    display: block;
+    padding: 4px;
+    background-color:#4d819a ;
+    color: #f2f6f6;
+    cursor: pointer;
+   
+}
+
+/*seccion de reseñas sobre nuestros productos*/
+
+#opiniones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
+    background-color: #133030;
+}
+
+.personas {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.calificaciones {
+    display: flex;
+    align-items: center;   
+    margin: 10px;
+    color: #f2f6f6;
+   
+
+}
+
+.calificaciones img {
+    height: 50px;
+    width: 50px;
+    margin: 1em;
+    border-radius: 100px;
+}
+
+
+
+.calificaciones h6 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*footer de la pagina*/
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom:50px ;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: 10px;
+
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.redes ul li i {
+    font-size:40px; 
+}
+
+.redes ul li a i {
+    color: #000;
+
+}
+
+.ayuda  {
+    color:#a99168 !important;
+}
+
+.ayuda p {
+    margin-top: 10px;
+}
+
+/*aca comienza el formulario*/
+#consulta {
+    background-color: #f2f6f6;
+    background-image: url(img/fondoformulario.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+form {
+    color: #828590;
+    border-radius: 5px;
+    background-color: #f8efea;
+    padding: 20px;
+    margin: 60px;
+    width: 300px;
+    font-size:16px ;       
+}
+
+
+
+/*el header de la pagina de contacto*/
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#efefe1;
+}
+
+.cabecera p a {
+    padding-right: 80px;
+    color: #a99168;
+    text-decoration: none;
+}
+
+.cabecera img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 50px;
+}
+ /*formulario para contactarnos*/
+input,textarea {
+    border: 0;
+    
+}
+
+.rellenar {
+    border: 1px solid #868792;
+    border-radius: 5px;
+    padding: 10px;
+    width: 260px;
+    
+}
+
+#datos p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton {
+    color: #828590;
+    border-radius: 5px;
+    background-color:#2bc987;
+    border: 1px solid  #868792;
+    padding: 10px;
+    position: relative;
+    left: 95px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#textarea {
+    margin-top: 20px;
+}
+
+#textarea p {
+   margin-bottom: 20px;
+}
+
+#problema {
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #868792;
+    border-radius: 5px;
+}
+
+#problema p {
+    position: relative;
+    bottom: 40px;
+    
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+

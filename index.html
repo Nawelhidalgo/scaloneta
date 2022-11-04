@@ -1,151 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de futbol, venta de indumentaria seleccion argentina">
+    <meta name="author" content="Nahuel Hidalgo">
     <title>scaloneta</title>
     <script src="https://kit.fontawesome.com/b807e90a18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header id="encabezado">
-        <img src="/img/logo.jpg" height="70px">
-        <span>Empresa</span>
-        <nav>
-            <ul>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#ofertas">Ofertas</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="/contacto.html">Atencion al cliente</a></li>
-            </ul>      
-        </nav>
+        <div class="navegacion">           
+            <div class="logo">
+                <img src="/img/logo.jpg">
+            </div>
+            <nav class="items">
+                <ul>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="/contacto.html">Atencion al cliente</a></li>
+                </ul>        
+            </nav>           
+        </div> 
     </header>
-    <hr>
+  
+    <main class="main">
+        <section id="presentacion">
+            <div class="carrusel">
+                <!--imagenes como presentacion de la empresa-->
+                <!--carusel de foto-->
+                <!--la idea era un carusel de fotos pero no se como hacerlo-->
+                <h1 class="esfuerzo">EL ESFUERZO ES LA MAGIA QUE TRASFORMA LOS EXITOS EN REALIDAD</h1>
+                <div class="imgdejugadores"> 
+                    <img src="/img/argentinacampeon.jpg">
+                </div>
+            </div>
+        </section>
+        
 
-    <section id="presentacion">
-        <div>
-            <!--imagenes como presentacion de la empresa-->
-            <!--carusel de foto-->
-            <h1>El esfuerzo es la magia que transforma los exitos en realidad</h1>
-            <img src="/img/V2TTU7UHEFFMJODRGF3TZZTTZQ.jpg" height="200px">
-            <img src="/img/16259788574028.jpg" height="200px">
-            <img src="/img/52910.jpg" height="200px">
-            <img src="/img/BEJSI5XOJRIEHL5MRRCYZXXQ7E.jpg" height="200px">
-        </div>
-    </section>
-    <hr>
+        <section id="categorias">
+            <div class="pelota">
+                <img src="/img/pelota.jpg">               
+                <!--Pelota-->
+            </div>
+            <div class="pantalon">
+                <img src="/img/pantalon-arg.jpg">                
+                <!--Pantalon-->
+            </div>
+            <div class="camiseta">
+                <img src="/img/di-maria-camiseta-suplente-argentina_w862.jpg">                
+                <!--Camiseta-->
+            </div>
+            <div class="botines">
+                <img src="img/messibotines1.jpg_1802838036.webp">               
+                <!--Botines-->
+            </div>
+            <div class="retro">
+                <img src="img/maradona.retro.jpg" >
+                <!--retro-->
+            </div>
+        </section>
+        
+        <section id="ofertas">
+            <div id="h3">
+                <p>PRODUCTOS</p>
+                <P>DESTACADOS</P>
+                <img src="/img/logo.jpg">
 
-    <section id="productos">
-        <div>
-            <img src="/img/624b1bc56eba6-565339-500x500.jpg" height="200px">
-            <p>Pelota</p>
-        </div>
-        <div>
-            <img src="/img/6ec91658513d4160a152aeaf00af1ccb_9366.jpg" height="200px">
-            <p>Pantalon</p>
-        </div>
-        <div>
-            <img src="/img/di-maria-camiseta-suplente-argentina_w862.jpg" height="200px">
-            <p>Camiseta</p>
-        </div>
-        <div>
-            <img src="img/Portrait_Placeholder.png" height="200px">
-            <p>Botines</p>
-        </div>
-        <div>
-            <img src="img/Portrait_Placeholder.png" height="200px">
-            <p>Accesorios</p>
-        </div>
-    </section>
-    <hr>
-
-    <section id="ofertas">
-        <div>
-            <h3>Productos destacados</h3>
-            <img src="/img/SM-placeholder.png" height="200px">
-        </div>
-
-        <div>
-            <div>
-                <img src="/img/messi.jpg" height="200px">
-                <p>Camiseta alternativa</p>
-                <p>$</p>
             </div>
 
-            <div>
-                <img src="/img/FPg-HTqXIAQVxk0.jpg.jpg" height="200px">
-                <p>Pelota Al Rihla Competition</p>
-                <p>$</p>
-            </div> 
+            <div id="destacados">
+                <div class="productodest">
+                    <img src="/img/messi.jpg">
+                    <p>Camiseta alternativa</p>
+                    <p>$17000</p>
+                    <div class="comprar">
+                        <span>Comprar</span>
+                    </div>
+                </div>
 
-            <div>
-                <img src="/img/descarga.jpg" height="200px">
-                <p>Short adidas seleccion argentina 2022 blanco</p>
-                <p>$</p>
-            </div>
+                <div class="productodest"> 
+                    <img src="/img/pleotadefutbol.jpg">
+                    <p>Pelota Al Rihla Competition</p>
+                    <p>$10000</p>
+                    <div class="comprar">
+                        <span>Comprar</span>
+                    </div>
+                </div> 
 
-            <div>
-                <img src="/img/CPB2ITLKTJGITMH2LURD3LJMCE.jpg" height="200px">
-                <p>Camiseta oficial</p>
-                <p>$</p>
-            </div>
-        </div>
-    </section>
-    <hr>
+                <div class="productodest">
+                    <img src="/img/pantaloncorto.jpg">
+                    <p>Short seleccion 2022 blanco</p>
+                    <p>$10000</p>
+                    <div class="comprar">
+                        <span>Comprar</span>
+                    </div>
+                </div>
 
-    <section id="opiniones">
-        <div>
-            <div class="calificaciones">
-                <img src="img/Portrait_Placeholder.png" alt="logo" height="40px">
-                <h6>Nombre de la persona</h6>       
-                <img src="/img/SM-placeholder.png" height="70">         
+                <div class="productodest">
+                    <img src="/img/camisetaoficial.jpg">
+                    <p>Camiseta oficial</p>
+                    <p>$18000</p>
+                    <div class="comprar">
+                        <span>Comprar</span>
+                    </div>
+                </div>
             </div>
-            <div class="calificaciones">
-                <img src="img/Portrait_Placeholder.png" alt="logo" height="40px">
-                <h6>Nombre de la persona</h6>       
-                <img src="/img/SM-placeholder.png" height="70">         
-            </div>
-            <div class="calificaciones">
-                <img src="img/Portrait_Placeholder.png" alt="logo" height="40px">
-                <h6>Nombre de la persona</h6>       
-                <img src="/img/SM-placeholder.png" height="70">         
-            </div>
-            <div class="calificaciones">
-                <img src="img/Portrait_Placeholder.png" alt="logo" height="40px">
-                <h6>Nombre de la persona</h6>       
-                <img src="/img/SM-placeholder.png" height="70">         
-            </div>
-            <div class="calificaciones">
-                <img src="img/Portrait_Placeholder.png" alt="logo" height="40px">
-                <h6>Nombre de la persona</h6>       
-                <img src="/img/SM-placeholder.png" height="70">         
-            </div>
-        </div>           
-        <div>
-            <p>Opiniones del producto</p>
-            <p>Opiniones del producto</p>
-            <p>Opiniones del producto</p>
-            <p>Opiniones del producto</p>
-            <p>Opiniones del producto</p>
-        </div>
-    </section>
- 
-    <hr>
+        </section>
+    
 
-    <footer id="contacto">
-        <div>
-            <img src="/img/logo.jpg" height="70">
-            <span>Empresa</span>
-        <div>
-            <ul>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-            </ul>
-        </div>
-        <div>
-            <h3>Atencion al cliente</h3>
-            <p>Nosotros</p>
-            <p>Contacto</p>
-            <p>¿Necesitas ayuda?</p>
-        </div>       
-    </footer>
+        <section id="opiniones">
+            <div class="personas">
+                <div class="calificaciones">
+                    <img src="img/img.peronsa 4.png" alt="logo">
+                    <h6>Ramiro Garcia</h6>       
+                    <img class="producto" src="img/pleotadefutbol.jpg">
+                    <p>Hermosa la pelota, buena forma y peso, vale el precio.</p>
+                </div>
+                <div class="calificaciones">
+                    <img src="img/img-persona5.jpg" alt="logo">
+                    <h6>Guillermo Lopez</h6>       
+                    <img class="producto" src="img/pantaloncorto.jpg"> 
+                    <p>La calidad de la tela es muy buena. cumple con las expectativas, buen producto.</p>        
+                </div>
+                <div class="calificaciones">
+                    <img src="img/img-persona3.jpg" alt="logo" >
+                    <h6>Mateo Navarro</h6>       
+                    <img class="producto" src="img/camisetatitular2022.jpg">
+                    <p>La camiseta está tal cual en la foto, muy bonita y los talles están bien, la calidad es excelente</p>         
+                </div>
+                <div class="calificaciones">
+                    <img src="img/img-persona2.jpg" alt="logo">
+                    <h6>Carlos Heridia</h6>       
+                    <img class="producto" src="img/Camiseta_Suplente_Seleccion_Argentina_Messi_1_Azul_IQ5463_01_laydown.jpeg">
+                    <p>Una camiseta muy bien confeccionada, lindos colores. Ningún detalle negativo para mí.</p>         
+                </div>             
+            </div>           
+        </section>
+    </main> 
+    
+
+        <footer id="contacto">
+            <div class="logo">
+                <img src="/img/logo.jpg">
+            </div>
+            
+            <div class="redes">
+                <ul>
+                <li>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                
+                <li>
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                </li> 
+
+                <li>
+                    <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-square-twitter"></i></a>
+                </li>
+                </ul>
+            </div>
+        
+            <div class="ayuda">
+                <h3>Atencion al cliente</h3>
+                <p>Nosotros</p>
+                <p>Contacto</p>
+                <p>¿Necesitas ayuda?</p>
+            </div>       
+        </footer>  
 </body>
 </html>
